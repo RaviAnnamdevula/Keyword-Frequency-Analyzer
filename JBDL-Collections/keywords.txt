@@ -1,0 +1,13 @@
+pen
+pencil
+laptop
+mobile
+table
+mouse
+keyboard
+pen
+pencil
+marker
+books
+mobile
+pen
