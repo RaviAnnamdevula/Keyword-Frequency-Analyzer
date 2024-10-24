@@ -6,6 +6,8 @@ This project demonstrates different implementations of keyword storage and analy
 The project showcases how different data structures can be used to store, retrieve, and analyze keywords based on their frequencies. 
 The keywords are read dynamically from a file, making the application more flexible for handling real-world data.
 
+Path JBDL-Collections/src/org/collectionsP
+
 Key Features:
 Three types of keyword analyzers:
     List-based: Stores keywords in a list (allowing duplicates).
@@ -17,7 +19,7 @@ Usage of Java's Comparator and Comparable: Demonstrates sorting and custom prior
 Exploration of Java Collections: A practical example of using List, Set, Map, PriorityQueue, and other Java collections. 
 
 
-**Table of Contents**
+# **Table of Contents**
 Technologies Used
 Project Structure
 Installation & Setup
@@ -27,13 +29,13 @@ Contributing
 License
 
 
-**Technologies Used**
+# **Technologies Used**
 Java
 Java Collections Framework
 File I/O (BufferedReader, FileInputStream)
 Java PriorityQueue
 
-**Main Components:**
+# **Main Components:**
 Client.java: The entry point of the project where different implementations of KeyAnalyzer are used to store and analyze keywords. It reads input from keywords.txt.
 KeyAnalyzer.java: Interface defining the core methods for storing and retrieving keywords.
 ListKeyAnalyzerImpl.java: Implementation using a List to store keywords (allowing duplicates).
@@ -54,7 +56,7 @@ SetKeyAnalyzerImpl: Stores unique keywords in a HashSet, eliminating duplicates.
 MapKeyAnalyzerImpl: Stores keywords in a HashMap where each keyword is mapped to its frequency count. It also uses a PriorityQueue to retrieve the top 5 most frequent keywords.
 Comparators and Priority Queues: The MapKeyAnalyzerImpl uses a custom Comparator to prioritize and sort keywords based on their frequency, providing the functionality to fetch the top 5 most frequently used keywords.
 
-Use Cases:
+# Use Cases:
 
 Display all keywords.
 Show keyword frequencies.
@@ -102,6 +104,7 @@ Keyword: mobile, Frequency: 1
 Keyword: table, Frequency: 1
 
 
+# Real World useage
  "Keyword Frequency Analyzer" project can be useful in real-world applications, especially in scenarios where tracking and analyzing word or keyword frequency is important. Here are a few real-world use cases where such a project would be useful:
 
 1. Search Engine Optimization (SEO) Analysis:
